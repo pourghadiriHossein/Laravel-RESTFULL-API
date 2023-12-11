@@ -1,0 +1,69 @@
+@font-face {
+    font-family: Custom;
+    src: url(../font/PlaypenSans-VariableFont_wght.ttf);
+}
+
+* {
+    outline: 0;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: calc(4vw);
+    color: white;
+}
+h2 {
+    text-align: center;
+    font-size: calc(3vw);
+    color: white;
+}
+.table {
+    width: 90%;
+    margin: 50px auto;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 8px;
+}
+body {
+    background-color: black;
+}
+.header {
+    background-color: darkblue;
+    color: gold;
+}
+.head-first {
+    font-size: calc(2vw);
+    padding: 16px 32px;
+    text-align: center;
+    width: 5%;
+}
+.head-second {
+    font-size: calc(2vw);
+    padding: 16px 32px;
+    text-align: center;
+    width: 15%;
+}
+.head-third {
+    font-size: calc(2vw);
+    padding: 16px 32px;
+    text-align: center;
+    width: 50%;
+}
+.head-fourth {
+    font-size: calc(2vw);
+    padding: 16px 32px;
+    text-align: center;
+}
+.data {
+    font-size: calc(1vw);
+    font-weight: bold;
+    padding: 16px 32px;
+    text-align: center;
+    color: white;
+}
+.row:nth-child(odd) {
+    background-color: rgba(160, 159, 159, 0.4);
+}
